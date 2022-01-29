@@ -1,0 +1,23 @@
+{
+  "name": "todoapp-node",
+  "version": "1.0.0",
+  "description": "This is a project developed in NodeJS and ReactJS connected to a relational database in PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "keywords": [],
+  "author": "Percy Tejada <contact@ppjcode.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
